@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<!-- <body onclick="alert(`the bubbling doesn\'t reach here`)">  -->
+  <body>
+    <!-- <h2>Click Event Example</h2> -->
+    <!-- <button type="button" onclick="greeting()">Click me</button> -->
+    <!-- <button type="button" id="btn">Click me</button> -->
+    <!-- <div id="buttons" > 
+        <button class="buttonC">Click me</button>
+        <button class="buttonClazz">Click me</button>
+        <button class="buttonClass">Click me</button>
+    </div> -->
+
+
+    <!--Event bubbling-->
+    <!-- <div onclick="alert('The handler!')">
+        <em>If you click on <code>EM</code>, the handler on <code>DIV</code> runs.</em>
+    </div> -->
+    <!--Stopping bubbling--->
+    <!-- <button onclick="event.stopPropagation()">Click me</button> -->
+
+
+
+    <!--event capturing-->
+    <!-- <article id="ancestor">
+        Article Element
+        <div id="parent">
+          DIV Element
+          <p id="child">
+            P Element
+          </p>
+        </div>
+    </article> -->
+    
+    <!--Prevent Default-->
+    <!-- <a href="https://www.google.com" id="link">Link</a> -->
+
+    <!--What is the use of stopPropagation method?-->
+    <!-- <p>Click DIV1 Element</p>
+    <div onclick="secondFunc()">
+        DIV 2
+        <div onclick="firstFunc(event)">DIV 1</div>
+    </div> -->
+    <button id="btn">Stop interval</button>
+    <!--What is difference between stoppropagation, stopimmediatepropagation and preventdefault in javascript?-->
+    <script src="./events.js"></script>
+  </body>
+</html>
